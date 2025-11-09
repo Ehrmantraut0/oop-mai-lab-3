@@ -7,9 +7,9 @@
 int main() {
     std::vector<Figure*> figures;
     std::string command;
+    std::cout << "Commands: triangle, square, rectangle, delete <index>, exit" << std::endl;
     std::cin >> command;
     
-    std::cout << "Commands: triangle, square, rectangle, delete <index>, exit" << std::endl;
     
     while (command != "exit") {
         if (command == "triangle" || command == "square" || command == "rectangle") {
